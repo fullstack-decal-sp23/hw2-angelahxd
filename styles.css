@@ -1,3 +1,4 @@
+
 /* BEGIN SETUP (you will not need to use these) */
 #intro {
   color: rgb(0, 0, 0);
@@ -20,6 +21,11 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+h2:hover {
+  font-size: large;
+  color: orange
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -32,10 +38,12 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%
 }
 
 .threehoriz {
   width: 33.3%;
+  height: 100%
 }
 
 .narrow {
@@ -91,18 +99,39 @@ h2 {
   background-color: #000;
 }
 
+.red {
+    background-color: red;
+}
+
+#white {
+    background-color: #fff;
+}
+
+.light-blue {
+    background-color: lightblue;
+}
+
+
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
   /* TODO */
+  background-color: #b5002d;
+  height: 17%;
 }
 
 .thailand-white {
   /* TODO */
+  background-color: #fff;
+  height: 17%;
+
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2e2a4c;
+  height: 32%;
 }
 
 /* END QUESTION 2 */
@@ -111,14 +140,22 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  display: inline-block;
+  flex-direction: row;
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  display: inline-block;
+  flex-direction: row;
+  margin-left: -4px;
 }
 
 .romania-red {
   background-color: #e10017;
+  display: inline-block;
+  flex-direction: row;
+  margin-left: -4px;
 }
 
 /* END QUESTION 3 */
@@ -126,15 +163,32 @@ h2 {
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  display: inline-block;
+  flex-direction: row;
 }
 
 .mexico-img {
   /* TODO */
+  flex-direction: row;
+  display: inline-block;
+  max-width: 100px;
+  max-height: 100px;
+  justify-content: center;
+  margin-left: -4;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-right: 29.25px;
+  padding-left: 29.25px;
+
 }
 
 .mexico-red {
   background-color: #ce1126;
+  flex-direction: row;
+  display: inline-block;
+  justify-content: left;
 }
+
 
 /* QUESTION 6 */
 .margin-container {
@@ -149,11 +203,22 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
+  padding-right: 505px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: row;
+  display: inline-block;
+  justify-content: left;
   /* TODO */
 }
 
 .flag2 {
   background-color: blue;
+  padding-left: 505px;
+  height: 280px;
+  flex-direction: row;
+  display: inline-block;
+  justify-content: center;
   /* TODO */
 }
 /* For padding practice */
